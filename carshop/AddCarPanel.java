@@ -2,23 +2,7 @@ import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-/**
- * The panel used for adding cars to the CarSalesSystem
- * @
- *
- * PUBLIC FEATURES:
- * // Constructors
- *    public AddCarPanel(CarSalesSystem carSys, JPanel dest)
- *
- * // Methods
- *    public void actionPerformed(ActionEvent ev)
- *
- * COLLABORATORS:
- *    CarDetailComponents
- *
- * @version 1.0, 16 Oct 2004
- * @author Adam Black
- */
+
 public class AddCarPanel extends JPanel implements ActionListener
 {
 	private CarSalesSystem carSystem;
@@ -150,12 +134,7 @@ public class AddCarPanel extends JPanel implements ActionListener
 		}
 	}
 
-	/**
-	 * checks the argument. It is valid if there is more than 2 non-spaced characters.
-	 *
-	 * @param arg string to test
-	 * @return true if valid, false otherwise
-	 */
+	
 	private boolean validateString(String arg)
 	{
 		boolean valid = false;
@@ -172,12 +151,7 @@ public class AddCarPanel extends JPanel implements ActionListener
 		return valid;
 	}
 
-	/**
-	 * checks the argument It is valid if it contains a decimal value, with only one decimal place
-	 *
-	 * @param distance a double value expressed in a string
-	 * @return true if valid, false otherwise
-	 */
+
 	private boolean validateKilometers(String distance)
 	{
 		boolean valid = false;

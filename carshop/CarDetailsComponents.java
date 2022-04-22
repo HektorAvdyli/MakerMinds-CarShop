@@ -19,10 +19,6 @@ public class CarDetailsComponents extends JPanel implements ComponentListener
 
 	private final int divFactor = 27;
 
-	/**
-	 * set up a new CarDetailComponents object and return a reference to the object which is a kind
-	 * of panel
-	 */
 	public CarDetailsComponents()
 	{
 		Insets currentInsets;
